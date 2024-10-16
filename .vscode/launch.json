@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:vscode_swift}",
+      "name": "Debug vscode_swift",
+      "program": "${workspaceFolder:vscode_swift}/.build/debug/vscode_swift",
+      "preLaunchTask": "swift: Build Debug vscode_swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:vscode_swift}",
+      "name": "Release vscode_swift",
+      "program": "${workspaceFolder:vscode_swift}/.build/release/vscode_swift",
+      "preLaunchTask": "swift: Build Release vscode_swift"
+    }
+  ]
+}
